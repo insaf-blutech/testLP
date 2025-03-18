@@ -28,7 +28,7 @@ export default {
         '2xl': '1536px',
       },
       fontFamily: {
-        grotesk: ['Grotesk', 'sans-serif'],
+        grotesk: ['Cabinet Grotesk',],
       },
     },
   },

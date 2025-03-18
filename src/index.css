@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: 'Cabinet Grotesk', sans-serif;
+/* * {
+  font-family: 'Cabinet Grotesk';
 
-}
+} */
+
 
 body {
   font-family: 'Cabinet Grotesk', sans-serif;
@@ -14,7 +15,7 @@ body {
 /* Cabinet Grotesk - Black */
 @font-face {
   font-family: 'Cabinet Grotesk';
-  src: url('../assets/Fonts/OTF/CabinetGrotesk-Black.otf') format('opentype');
+  src: url('/Grotesk/Fonts/WEB/fonts/CabinetGrotesk-Black.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
 }
@@ -22,7 +23,7 @@ body {
 /* Cabinet Grotesk - Extrabold */
 @font-face {
   font-family: 'Cabinet Grotesk';
-  src: url('../assets/Fonts/OTF/CabinetGrotesk-Extrabold.otf') format('opentype');
+  src: url('/Grotesk/Fonts/WEB/fonts/CabinetGrotesk-Extrabold.woff2') format('woff2');
   font-weight: 800;
   font-style: normal;
 }
@@ -30,7 +31,7 @@ body {
 /* Cabinet Grotesk - Bold */
 @font-face {
   font-family: 'Cabinet Grotesk';
-  src: url('../assets/Fonts/OTF/CabinetGrotesk-Bold.otf') format('opentype');
+  src: url('/Grotesk/Fonts/WEB/fonts/CabinetGrotesk-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
@@ -38,7 +39,7 @@ body {
 /* Cabinet Grotesk - Medium */
 @font-face {
   font-family: 'Cabinet Grotesk';
-  src: url('../assets/Fonts/OTF/CabinetGrotesk-Medium.otf') format('opentype');
+  src: url('/Grotesk/Fonts/WEB/fonts/CabinetGrotesk-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
@@ -46,7 +47,7 @@ body {
 /* Cabinet Grotesk - Regular */
 @font-face {
   font-family: 'Cabinet Grotesk';
-  src: url('../assets/Fonts/OTF/CabinetGrotesk-Regular.otf') format('opentype');
+  src: url('/Grotesk/Fonts/WEB/fonts/CabinetGrotesk-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
@@ -54,7 +55,7 @@ body {
 /* Cabinet Grotesk - Light */
 @font-face {
   font-family: 'Cabinet Grotesk';
-  src: url('../assets/Fonts/OTF/CabinetGrotesk-Light.otf') format('opentype');
+  src: url('/Grotesk/Fonts/WEB/fonts/CabinetGrotesk-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
 }
@@ -62,7 +63,7 @@ body {
 /* Cabinet Grotesk - Extralight */
 @font-face {
   font-family: 'Cabinet Grotesk';
-  src: url('../assets/Fonts/OTF/CabinetGrotesk-Extralight.otf') format('opentype');
+  src: url('/Grotesk/Fonts/WEB/fonts/CabinetGrotesk-Extralight.woff2') format('woff2');
   font-weight: 200;
   font-style: normal;
 }
@@ -70,7 +71,7 @@ body {
 /* Cabinet Grotesk - Thin */
 @font-face {
   font-family: 'Cabinet Grotesk';
-  src: url('../assets/Fonts/OTF/CabinetGrotesk-Thin.otf') format('opentype');
+  src: url('/Grotesk/Fonts/WEB/fonts/CabinetGrotesk-Thin.woff2') format('woff2');
   font-weight: 100;
   font-style: normal;
 }

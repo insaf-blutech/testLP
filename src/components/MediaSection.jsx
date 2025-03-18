@@ -3,7 +3,7 @@ import BgImage from "../assets/images/ClearBgVideo.png";
 import PlayButtonImg from "../assets/images/PlayButton.png";
 const MediaSection = () => {
     return (
-        <div className="p-4 sm:p-6 lg:p-8">
+        <div className="">
             <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-6 lg:space-x-8">
                 <div className="w-full md:w-1/2 max-w-full md:max-w-[45%]">
                     <h2 className="text-green-500 text-sm font-[500]">WELCOME TO RECOVERY DELIVERED</h2>

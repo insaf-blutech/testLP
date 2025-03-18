@@ -2,9 +2,9 @@ import { Menu, X, ArrowUpRight } from 'lucide-react';
 
 const HeroSection = () => {
     return (
-        <div className="relative flex items-center h-full px-4 sm:px-6 lg:px-8">
+        <div className="relative flex items-center h-full ">
             <div className="max-w-7xl z-10 w-full">
-                <div className="max-w-2xl w-full">
+                <div className="max-w-2xl">
                     <p className="text-white text-xl mb-6 font-light">No lines. Less hassle. Lower costs.</p>
 
                     <h1 className="text-white font-grotesk text-5xl md:text-7xl font-bold leading-tight">
